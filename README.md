@@ -184,3 +184,17 @@ The script generates an interactive HTML map with:
 ## Example Data
 
 See `sample_map_data.xlsx` for a complete example with all sheet types populated.
+
+
+## New Features Added
+
+### 1. Line Layer
+- Added support for displaying routes/paths from the `lines` tab in the Excel file.
+- Each route can have customizable color, width (weight), and opacity.
+
+### 2. Measurement Tool
+- Added a built-in distance measurement tool (ruler icon on the map) to measure distances interactively.
+
+### 3. How to Run
+```bash
+python assignment2.py sample_map_data.xlsx
